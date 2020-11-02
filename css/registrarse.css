@@ -1,0 +1,139 @@
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.fondo{
+   background:#ffffcc fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   width: 100% ;
+   }
+
+  .fondo2{
+    color:#ffffff;
+   background: #000000;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   width:550px;
+ height: 43px;
+}
+  .fondo3{
+    color:#fff;
+   background: #000000;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ 
+}
+.button { 
+
+background: white;
+color:#000000;
+display: inline-block;
+font-family: 'Oswald', sans-serif;
+font-size:20px; 
+margin:5px;
+padding:10px 10px;
+text-align: center;
+width:50px;
+text-decoration: none;
+box-shadow: 3px 3px 2px #000000;
+ }
+
+.button.right {
+  font-size: 20px;
+ float:right;
+ width:auto;
+ margin:10px;
+padding:auto;
+}
+ .button.hover {
+  padding-top:  15px;
+}
+.register-box {
+  width: 450px;
+  height: 550px;
+  background: #fff;
+  color: #000;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 20px 90px;
+}
+.error {
+background-color: #FF9185;
+font-size: 15px;
+padding: 10px;
+}
+.correcto {
+background-color: #A0DEA7;
+font-size: 15px;
+padding: 10px;
+}
+.register-box h1 {
+
+  margin: 0;
+  padding: 0 0 0px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.register-box label {
+  margin: 0;
+  padding: 0;
+
+  font-weight: bold;
+  display: block;
+}
+
+.register-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.register-box input[type="text"], .register-box input[type="email"], .register-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #000;
+  font-size: 16px;
+}
+
+.register-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #E4A00E;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.register-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: grey;
+  color: #fff;
+}
+
+.register-box a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+}
+
+.register-box a:hover {
+  color: blue;
+}
